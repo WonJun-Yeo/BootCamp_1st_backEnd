@@ -20,7 +20,7 @@ public class MemberService {
   }
 
   // query
-  public Member findOne(Long memberId) {
+  public Member findMember(Long memberId) {
     return memberRepository.findOne(memberId);
   }
 
